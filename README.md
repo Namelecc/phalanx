@@ -1,2 +1,3 @@
-# phalanx
-A set of cheat and boost hunter tools for lichess users
+# Project Phalanx
+
+Project Phalanx is an open source set of hunting tools, meant for use on lichess. 
