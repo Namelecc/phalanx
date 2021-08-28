@@ -19,7 +19,7 @@ barlength = 5 #bin width
 session = berserk.TokenSession(token)
 client = berserk.Client(session=session)
 
-stuff = client.games.export_by_player(user, as_pgn = False, rated = "true", max = 100, perf_type = variant, analysed = True, evals = True)
+stuff = client.games.export_by_player(user, as_pgn = False, rated = "true", perf_type = variant, analysed = True, evals = True)
 games = list(stuff)
 
 gamecount = 0
