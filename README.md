@@ -18,6 +18,6 @@ Lead dev: Namelecc
 
 Main tester: ijhchess
 
-Minor dev contributions and correspondent: erinisafox
+Correspondent and idea hatcher: erinisafox
 
 If you want to improve the code or have an issue, please make an issue. Thanks and good luck!
