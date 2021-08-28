@@ -16,7 +16,7 @@ The contributions in here are not representative of actual dev team contribution
 
 Lead dev: Namelecc
 
-Main tester: Ijh
+Main tester: ijhchess
 
 Minor dev contributions and correspondent: erinisafox
 
