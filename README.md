@@ -14,7 +14,9 @@ low_acpl_games.py: Gives a list of a player's lowest ACPL games in a given varia
 
 The contributions in here are not representative of actual dev team contributions: those contributions are in a private dev repo.
 Lead dev: Namelecc
+
 Main tester: Ijh
+
 Minor dev contributions and correspondent: erinisafox
 
 If you want to improve the code or have an issue, please make an issue. Thanks and good luck!
