@@ -13,6 +13,7 @@ blunder_rates.py: Blunder rates of a player in a given variant and speed (printe
 low_acpl_games.py: Gives a list of a player's lowest ACPL games in a given variant. The length of the list can be changed by changing num_games. Can be restricted by opponent rating as well using the opponent_rating field.
 
 The contributions in here are not representative of actual dev team contributions: those contributions are in a private dev repo.
+
 Lead dev: Namelecc
 
 Main tester: Ijh
