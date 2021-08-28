@@ -21,3 +21,5 @@ Main tester: ijhchess
 Correspondent and idea hatcher: erinisafox
 
 If you want to improve the code or have an issue, please make an issue. Thanks and good luck!
+
+Just want to shoutout another open source cheat detection project that looks promising: https://github.com/erinisafox/Welgaia
