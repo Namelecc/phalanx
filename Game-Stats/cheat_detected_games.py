@@ -5,7 +5,7 @@ token = "TOKEN"
 session = berserk.TokenSession(token)
 client = berserk.Client(session=session)
 
-games = client.games.export_by_player(user, max = 10981)
+games = client.games.export_by_player(user)
 for game in games:
     if game['status'] == "cheat":
         
