@@ -5,8 +5,7 @@ token = "API TOKEN"
 session = berserk.TokenSession(token)
 client = berserk.Client(session=session)
 
-stuff = client.games.export_by_player(user)
-games = list(stuff)
+games = client.games.export_by_player(user)
 for game in games:
     if game['status'] == "cheat":
             player_color = "black" 
