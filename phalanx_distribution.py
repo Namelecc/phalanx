@@ -5,7 +5,7 @@ import numpy as np
 #___________________________________________________________
 
 token = "TOKEN" #Your lichess API token
-user = "NAME".casefold() #User that you want top x wins of
+user = "NAME".casefold() #User that you want to investigate
 variant = "VARIANT" #One of the below, exactly as written below
 #ultraBullet "bullet "blitz rapid classical correspondence chess960 crazyhouse antichess atomic horde kingOfTheHill racingKings threeCheck
 speed = "SPEED" #One of the below, exactly as written
