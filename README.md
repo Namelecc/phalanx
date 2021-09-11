@@ -16,7 +16,7 @@ low_acpl_games.py: Gives a list of a player's lowest ACPL games in a given varia
 
 cheat_detected_games.py: Finds all of someone's cheat detected games and gives you the game IDs.
 
-botter_scan.py: Scans someone for botted games in a given variant and speed. Calculates a coefficient for each game based on acpl, move time standard deviation, and totalTime (a combination of starting time and increment). Still in early stages of development. 
+botter_scan.py: Scans someone for botted games in a given variant and speed. Calculates a coefficient for each game based on acpl, move time standard deviation, and totalTime (a combination of starting time and increment). Lower coefficients are more suspcicious. Returns 30 lowest coefficient games. Still in early stages of development. 
 
 The contributions in here are not representative of actual dev team contributions: those contributions are in a private dev repo.
 
