@@ -21,7 +21,6 @@ coefficient = []
 games = []
 
 for x in more_stuff:
-    decoded_stuff = (x.decode('utf-8'))
     game = json.loads(x)
     if game['speed'] == speed:
         initial = game['clock']['initial']
