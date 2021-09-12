@@ -64,8 +64,9 @@ for x in more_stuff:
                 y = clock_reader[x].split(":")
                 seconds = int(y[0]) * 60 + int(y[1]) 
                 clock_reader[x] = seconds
-            if clock_reader[0] != initial:
+            if clock_reader[0] != initial and clock_reader[0] != 0:
                 berserk = True
+
             if berserk == False:
                 clock_reader.insert(0, initial)
                 for x in range(1, len(clock_reader)):
