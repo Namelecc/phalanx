@@ -98,6 +98,6 @@ for repetition in range(len(games)):
 
 for x in range(0, 30):
     try:
-        print(f"ID: {games[x]}, Coefficient: {coefficient[x]}")
+        print(f"Game: https://lichess.org/{games[x]}, Coefficient: {coefficient[x]}")
     except:
         pass
