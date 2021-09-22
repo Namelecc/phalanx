@@ -20,7 +20,7 @@ request = req.get(
     # "max":x where x is any number you choose is a possible inclusion above if you want
     headers={"Accept": "application/x-ndjson"}
 )
-#Using request module to get the endpoint from the API
+#Using request module to get the data from the API
 #__________________________
 
 stuff = request.iter_lines() #This is going to allow us to read ndjson as json
