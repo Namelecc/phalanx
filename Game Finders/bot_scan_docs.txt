@@ -1,0 +1,25 @@
+I'm not going to go into a ton of depth about why this works, but this is the basic idea:
+
+Common methods of cheating include using bots that move automatically, or using an overlay and moving along with that. Players that use stockfish throughout
+much of their games will undoubted find themselves simply plugging in stockfish's moves into their games on lichess. This often leads to flat time distributions,
+and of course, games with increased accuracy aka lower average centipawn loss.
+
+Now why the flat time distribution? Well, engines and humans think differently. Humans struggle with depth and complexity: increasing depth is quite 
+difficult, and requires much more effort, and therefore time to do. 
+
+Computers don't face the same issue. They just "plug and chug", going through many many different lines methodically and checking them off one by one. They 
+are also quite fast of course, and take very little time to calculate the right move in a complicated position that would take a human minutes to solve. 
+This quickness in calculation is what causes time graphs to look linear: engines simply don't struggle with depth and complexity, so are able to go through
+many positions quite quickly, creating a graph with minimal variation. 
+
+People using chess bots as well as people that often consult engines tend to have more linear time graphs for the reasons stated above, and of course, low/lower
+average centipawn loss.
+
+How can we detect this linearity? Well, we can look at how spread out the values are. To do this, we use the standard deviation, which you can read 
+about elsewhere. 
+
+So what does the code do? It goes through someone's games, and calculates a coefficient based on game accuracy in acpl and the standard deviation of the move 
+times for each game. It then multiplies these terms together, and divides by the estimated total time the game would take (a combination of starting time 
+and increment). Since we expect botters and other similar cheaters to be having games with consistent move times (low standard deviation) and high accuracy 
+(low average centipawn loss), a lower coefficient tends to mean a higher chance of being a botted game. The code then lists the games with the 30 lowest 
+coefficients. It's your job to go through those games and determine whether they cheated or not. 
