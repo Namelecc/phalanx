@@ -1,7 +1,6 @@
 I'm not going to go into a ton of depth about why this works, but this is the basic idea:
 
-Common methods of cheating include using bots that move automatically, or using an overlay and moving along with that. Players that use engines during
-much of their games will undoubted find themselves simply plugging in stockfish's moves into their games on lichess. This often leads to flat time distributions,
+Common methods of cheating include using bots that move automatically, or using an overlay and moving along with that. Players that use engines often during their games will undoubtedly find themselves simply plugging in stockfish's moves into their games on lichess. This often leads to flat time distributions,
 and of course, games with increased accuracy aka lower average centipawn loss.
 
 Now why the flat time distribution? Well, engines and humans think differently. Humans struggle with depth and complexity: increasing depth is quite 
