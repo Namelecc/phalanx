@@ -1,6 +1,8 @@
 I'm not going to go into a ton of depth about why this works, but this is the basic idea:
 
-Common methods of cheating include using bots that move automatically, or using an overlay and moving along with that. Players that rely on engines for most of their games to win tend to let their brain take the back seat. This often leads to flat time distributions, and of course, games with increased accuracy aka 
+Common methods of cheating include using bots that move automatically, or using an overlay and moving along with that. Players that rely on engines for 
+most of their games to win tend to let their brain take the back seat. This often leads to flat time distributions, and of course, games with 
+increased accuracy aka 
 lower average centipawn loss.
 
 Now why the flat time distribution? Well, engines and humans think differently. Humans struggle with depth and complexity: increasing depth is quite 
