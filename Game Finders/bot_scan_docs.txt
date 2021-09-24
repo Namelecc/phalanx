@@ -1,21 +1,20 @@
 I'm not going to go into a ton of depth about why this works, but this is the basic idea:
 
-Common methods of cheating include using bots that move automatically, or using an overlay and moving along with that. Players that use engines often during 
-their games will undoubtedly find themselves simply plugging in stockfish's moves into their games on lichess. This often leads to flat time distributions,
-and of course, games with increased accuracy aka lower average centipawn loss.
+Common methods of cheating include using bots that move automatically, or using an overlay and moving along with that. Players that rely on engines for most of their games to win tend to let their brain take the back seat. This often leads to flat time distributions, and of course, games with increased accuracy aka 
+lower average centipawn loss.
 
 Now why the flat time distribution? Well, engines and humans think differently. Humans struggle with depth and complexity: increasing depth is quite 
 difficult, and requires much more effort, and therefore time to do. 
 
 Computers don't face the same issue. They just "plug and chug", going through many many different lines methodically and checking them off one by one. They 
-are also quite fast of course, and take very little time to calculate the right move in a complicated position that would take a human minutes to solve. 
+are also quite fast of course, and take very little time to calculate the right move in a complicated position that would take a human a long time to evaluate. 
 This quickness in calculation is what causes time graphs to look linear: engines simply don't struggle with depth and complexity, so are able to go through
-many positions quite quickly, creating a graph with minimal variation. 
+many positions quite quickly regardless of position complexity, creating a graph with minimal variation. 
 
 People using chess bots as well as people that often consult engines tend to have more linear time graphs for the reasons stated above, and of course, low/lower
 average centipawn loss.
 
-How can we detect this linearity? Well, we can look at how spread out the values are. To do this, we use the standard deviation, which you can read 
+How can we detect this linearity? Well, we can look at how spread out the move times are. To do this, we use the standard deviation, which you can read 
 about elsewhere. 
 
 So what does the code do? It goes through someone's games, and calculates a coefficient based on game accuracy in acpl and the standard deviation of the move 
