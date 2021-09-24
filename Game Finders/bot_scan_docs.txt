@@ -5,7 +5,7 @@ most of their games to win tend to let their brain take the back seat. This ofte
 accuracy aka lower average centipawn loss.
 
 Now why the flat time distribution? Well, engines and humans think differently. Humans struggle with depth and complexity: increasing depth is quite 
-difficult, and requires much more effort, and therefore time to do. 
+difficult, requires much more effort, and therefore time to do. 
 
 Computers don't face the same issue. They just "plug and chug", going through many many different lines methodically and checking them off one by one. They 
 are also quite fast of course, and take very little time to calculate the right move in a complicated position that would take a human a long time to evaluate. 
