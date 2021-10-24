@@ -1,6 +1,6 @@
 # Project Phalanx
 
-Project Phalanx is an open source set of hunting tools, meant for use on lichess. 
+Project Phalanx is an open source (feel free to use it, no need to credit) set of hunting tools, meant for use on lichess. 
 
 DISCLAIMER: The tools here shouldn't be used as evidence in public shaming claims. Remember that the proper way to go about dealing with cheaters is to *report* them (using lichess.org/report), not to cause unecessary damage by exposing them publicly. 
 
@@ -29,3 +29,4 @@ Correspondent and idea hatcher: erinisafox
 If you want to improve the code or have an issue, please make an issue. Thanks and good luck!
 
 Just want to shoutout another open source project that looks promising: https://github.com/erinisafox/Welgaia
+
