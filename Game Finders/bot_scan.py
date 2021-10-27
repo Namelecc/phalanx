@@ -130,7 +130,7 @@ for repetition in range(len(games)):
 
 for x in range(0, 30): #Just giving the top 30 suspicious games
     try: 
-        print(f"Game: https://lichess.org/{games[x]}, Coefficient: {coefficient[x]}")
+        print(f"Game {x + 1}: https://lichess.org/{games[x]}, Coefficient: {coefficient[x]}")
     except:
         pass
         #We may get an array out of bounds error if the player has very few games
