@@ -7,7 +7,12 @@ import statistics as stat
 username = input("Username: ").casefold()
 move_minimums = 10
 variant = input("Variant: ")
-speed = input("Speed: ")
+standard = {"bullet", "blitz", "rapid", "classical"}
+speed = ""
+if variant in standard:
+    speed = variant
+else:  
+    speed = input("Speed: ").casefold()
 min_opponent = int(input("Minimum opponent rating: "))
 #These are all inputs
 
